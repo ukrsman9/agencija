@@ -1,0 +1,128 @@
+~<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css.css" rel="stylesheet">
+</head>
+<body>
+    <div class="sve">
+
+
+        <div class="top-container">
+    
+          <ul class="nav">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./kalkulatr.html">Kalk</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="DrugaStrana" ><a href="#alo" >Contact</a></li>
+            
+          </ul>
+    
+    
+          <div class="naslov"> 
+            <h1 >Izaberte Vas SAVRSEN </h1>
+              <h1 >ODMOR</h1>
+          </div>
+            
+          
+
+
+
+
+        </div> 
+    
+        
+
+
+
+        <div id="BU">
+            <li><a href="./index.html">Home</a></li>
+          <li><a href="./kalkulatr.html">Kalk</a></li>
+          <a href="">Contact</a>
+          <li class="DrugaStrana" ><a href="" >Contact</a></li>
+        </div>
+          
+          
+    <div class="content2">
+        <div class="forma">
+        <form action="">
+            <h3>Destinacija</h3>
+
+            <select class="sirina" name="Destinacija" id="Destinacija" onchange="promena()"> 
+                <option value="Gr" selected>Grcka</option> 
+                    <option value="CG">Crna Gora</option> 
+                    
+                    <option value="Tr">Turska</option>                     
+            </select><br>
+
+            <select class="sirina" name="lokacija" id="lokacija"> 
+                <option value="Hanioti" >Hanioti</option> 
+                <option value="Nei Poroi">Nei Poroi</option> 
+                <option value="Asprovalta">Asprovalta</option>                       
+            </select>
+        <br>
+        <h3>Broj Dana</h3>
+            <label for="dana">10 dana</label>
+            <input checked type="radio" value="10" name="dana" id="dana"  onchange="promenaDana(1)">
+            <label for="dana">7 dana</label>           
+            <input type="radio" value="7" name="dana" onchange="promenaDana(2)"><br>
+
+        <h3>Period</h3>
+        <select class="sirina " name="datum10" id="datum10" hidden> 
+            <option value="1" >2-12.6</option> 
+            <option value="2">13-23.6</option> 
+            <option value="2">24.6-4.7</option>      
+            <option value="4" >4-14.7</option> 
+            <option value="4">15-25.7</option> 
+            <option value="4">6.7-16.8</option> 
+            <option value="3" >7-17.8</option> 
+            <option value="2">18-28.8</option>  
+            <option value="1" >29.8-9.9</option> 
+            <option value="1">10-20.9</option>                            
+        </select>
+
+        
+        <select class="sirina " name="datum7" id="datum7"> 
+            <option value="1" >2-9.6</option> 
+            <option value="2">10-17.6</option> 
+            <option value="2">18-25.6</option>      
+            <option value="3" >26.6-3.7</option> 
+            <option value="4">4-11.7</option> 
+            <option value="4">12-19.7</option> 
+            <option value="4" >20-27.7</option> 
+            <option value="3">28.7-5.8</option> 
+            <option value="3">6-13.8</option> 
+            <option value="2" >21-28.8</option> 
+            <option value="1" >29.8-6.9</option> 
+            <option value="1">7-14.9</option>  
+              
+                                       
+        </select>
+        <br><br>
+            <h3>Popust</h3>
+            <label for="popust">niste</label>
+            <input checked type="radio" value="1" name="popust" id="niste" >
+            <label for="popust">Student</label>           
+            <input type="radio" value="0.9" name="popust" id="Student" >
+            <label for="popust">penzioner</label>           
+            <input type="radio" value="0.7" name="popust" id="penzioner">
+
+
+            
+        </form>
+    </div>
+        <button onclick="Kalk()">Izracunaj</button>
+
+
+    </div>
+       
+    
+          
+        
+    </div>
+
+</body>
+<script src="./scripta.js"></script>
+</html>
