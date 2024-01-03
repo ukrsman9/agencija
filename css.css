@@ -1,138 +1,148 @@
     body {
-    margin: 0;
-    padding:2%; 
-    background-image: linear-gradient(to bottom right, #112D4E, #DBE2EF);
-    color: black;
+      margin: 0;
+      padding: 2%;
+      background-image: linear-gradient(to bottom right, #112D4E, #DBE2EF);
+      color: black;
     }
-    div.sve{
-        background-color: #DBE2EF;
-        border-radius: 15px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    div.sve {
+      background-color: #DBE2EF;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-  
-  
-  .top-container {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-       
-    
-        height: 650px;
-        border-radius: 15px;
 
-         background-image: url("./slike/ljudi.png");
-         
-  
-   
-    padding: 30px;
-    text-align: center;
-    
-    background-repeat: no-repeat;
-    background-size:cover ;
-  }
-h1{
-    margin-top: 0;
-}
-  div.ekran{
-    
-    width: 600px;
-    height: 300px;
 
-    margin-top: 70px;
-    margin-left: 70px;
+    .top-container {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
 
-   padding: 5px;
-   text-align: unset;
-  }
-  /*napravi da se skralira ekran sa ekranima po velicini displaya */
-  img.ekranImg{
-    margin: 15px;
-    width: 80%;
-    height: 40%;
-   border-radius: 30px;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
 
-  div.ekran1
-  {   
-    background-image: linear-gradient(to bottom right, #112D4E, #3F72AF);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    vertical-align: top;
-    
-    display: inline-block;
-    width: 45%;
-    margin-right: 20px;
-    border-radius: 15px;
+      height: 650px;
+      border-radius: 15px;
 
-  }
-  
-  div.ekran2
-  {
-    background-image: linear-gradient(to bottom right, #3F72AF, #112D4E);    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    vertical-align: top;
-    
-    width: 45%;
-    border-radius: 15px;
-    display: inline-block;
-    
-  }
-  p.ekran{
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
-    color: #F9F7F7;
-  }
-
-  ul.nav{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    
-  }
-  li{
-    float: left;
-  }
-  
-  li a{
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  .DrugaStrana{
-
-    float: right;
-  }
-div.poljaSva{
-  margin-top: 40px;
-}
-
-div.content{
-  padding: 15px;
-  text-align: center  ;
-}
-div.polja{
-  margin-top: 30px;
-  display: inline-block;
-  width: 25%;
-  
-}
-img.poljaIMG{
-  
-  width: 130px;
-  height: 130px;
-}
-p.polja{
-  padding: 1%;
-}
+      background-image: url("./slike/ljudi.png");
 
 
 
+      padding: 30px;
+      text-align: center;
 
-/*
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    div.ekran {
+
+      width: 600px;
+      height: 300px;
+
+      margin-top: 70px;
+      margin-left: 70px;
+
+      padding: 5px;
+      text-align: unset;
+    }
+
+    /*napravi da se skralira ekran sa ekranima po velicini displaya */
+    img.ekranImg {
+      margin: 15px;
+      width: 80%;
+      height: 40%;
+      border-radius: 30px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    div.ekran1 {
+      background-image: linear-gradient(to bottom right, #112D4E, #3F72AF);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      vertical-align: top;
+
+      display: inline-block;
+      width: 45%;
+      margin-right: 20px;
+      border-radius: 15px;
+
+    }
+
+    div.ekran2 {
+      background-image: linear-gradient(to bottom right, #3F72AF, #112D4E);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      vertical-align: top;
+
+      width: 45%;
+      border-radius: 15px;
+      display: inline-block;
+
+    }
+
+    p.ekran {
+      text-align: center;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: #F9F7F7;
+    }
+
+    ul.nav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+    .DrugaStrana {
+
+      float: right;
+    }
+
+    div.poljaSva {
+      margin-top: 40px;
+    }
+
+    div.content {
+      padding: 15px;
+      text-align: center;
+    }
+
+    div.polja {
+      margin-top: 30px;
+      display: inline-block;
+      width: 25%;
+
+    }
+
+    img.poljaIMG {
+
+      width: 130px;
+      height: 130px;
+    }
+
+    p.polja {
+      padding: 1%;
+    }
+
+
+
+
+    /*
   @keyframes slidein {
     from {
       margin-left: 100%;
@@ -149,164 +159,166 @@ p.polja{
     }
   }
    */
-  
-   
-  
-  div.TopDestinacije{
- 
-    background-image: linear-gradient(to bottom , #DBE2EF, #3F72AF);
-  
-    width: 98%;
-    height: 100%;
 
-    margin-top: 10px;
-    
 
-    padding: 1%;
-   text-align: unset;
-  
-  }
 
-  img.TopDestinacije{
+    div.TopDestinacije {
+
+      background-image: linear-gradient(to bottom, #DBE2EF, #3F72AF);
+
+      width: 98%;
+      height: 100%;
+
+      margin-top: 10px;
+
+
+      padding: 1%;
+      text-align: unset;
+
+    }
+
+    img.TopDestinacije {
       max-width: 100%;
-      max-height:100%;
-  }
-  
-  div.slike{
-    padding: 10px;
-    background-image: linear-gradient(to bottom right, #112D4E, #3F72AF);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 15px;
-    
+      max-height: 100%;
+    }
+
+    div.slike {
+      padding: 10px;
+      background-image: linear-gradient(to bottom right, #112D4E, #3F72AF);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 15px;
+
       color: aliceblue;
-    display: grid;
-    align-items: center; 
-    grid-template-columns:   2fr 1fr  ;
-    column-gap: 5px;
-   
-  }
+      display: grid;
+      align-items: center;
+      grid-template-columns: 2fr 1fr;
+      column-gap: 5px;
 
-
-  
-
-.dropdown {
-  border-radius: 5px;
-  position: relative;
-  display: inline-block;
-  width: 100%;
-}
-
-.dropdown-content {
-
-  
-  
-  width: 100%;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
- 
-}
-
-.dropdown-content button {
-  color: black;
-  
-  text-decoration: none;
-  display: block;
-  height: 80px;
-  width: 100%;
-  text-align: center;
-
-  border-radius: 15px;
-  
- 
-  
-}
-
-.dropdown-content a:hover{
-  background-color: darkgray;
-}
+    }
 
 
 
 
-#BU {
-  overflow: hidden;
-  background-color: #112D4E;
-  
-}
+    .dropdown {
+      border-radius: 5px;
+      position: relative;
+      display: inline-block;
+      width: 100%;
+    }
 
-#BU a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-.odlepi{
-  visibility: hidden;
-  display: none;
-
-}
-.Zalepi {
-  
-  position: fixed;
-  top: 0;
-  width: 96%;
-
-  visibility: visible;
-  display: block;
-} 
-div.mapa{
-  background-image: linear-gradient(to bottom , #3F72AF, #DBE2EF);
-
-}
+    .dropdown-content {
 
 
 
+      width: 100%;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+    }
+
+    .dropdown-content button {
+      color: black;
+
+      text-decoration: none;
+      display: block;
+      height: 80px;
+      width: 100%;
+      text-align: center;
+
+      border-radius: 15px;
+
+
+
+    }
+
+    .dropdown-content a:hover {
+      background-color: darkgray;
+    }
 
 
 
 
-/*KALK------------------------------*/
+    #BU {
+      overflow: hidden;
+      background-color: #112D4E;
 
-div.content2{
-  padding: 1%;
-}
+    }
 
-.forma{
+    #BU a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
 
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  padding: 15px;
-  width: 500px;
-  background-color: #3F72AF;
-  color: #DBE2EF;
-}
+    .odlepi {
+      visibility: hidden;
+      display: none;
 
-.sirina {
-  text-align: center;
-  width: 150px;
+    }
 
-}
-.dana10{
+    .Zalepi {
 
-}
-.dana7{
+      position: fixed;
+      top: 0;
+      width: 96%;
 
-}
+      visibility: visible;
+      display: block;
+    }
 
-.sakri{
-  visibility:hidden;
-  display: none;  
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-.pojaviSe{
-  visibility: visible;
-  display: block;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
+    div.mapa {
+      background-image: linear-gradient(to bottom, #3F72AF, #DBE2EF);
+
+    }
+
+
+
+
+
+
+
+    /*KALK------------------------------*/
+
+    div.content2 {
+      padding: 1%;
+    }
+
+    .forma {
+
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      padding: 15px;
+      width: 500px;
+      background-color: #3F72AF;
+      color: #DBE2EF;
+    }
+
+    .sirina {
+      text-align: center;
+      width: 150px;
+
+    }
+
+    .dana10 {}
+
+    .dana7 {}
+
+    .sakri {
+      visibility: hidden;
+      display: none;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .pojaviSe {
+      visibility: visible;
+      display: block;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
