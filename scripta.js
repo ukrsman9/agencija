@@ -37,15 +37,47 @@ var lokacijaa = document.getElementById("lokacija");
 
 
 function promena() {
+  
+  var slika =  document.getElementById("slka")
   if (destinacija.value == "Gr") {
+
+    if(lokacijaa.value == "Kotor" || lokacijaa.value == "Kemer" )
+    {
+      slika.src="./slike/hanioti.jpg"
+    }
+    else if(lokacijaa.value == "Herceg Novi" || lokacijaa.value == "Istanbul" )
+    {
+      slika.src="./slike/nei_pori.jpeg"
+    }
+    else if(lokacijaa.value == "Budva" || lokacijaa.value == "Alanya" )
+    {
+      slika.src="./slike/asprovalta.jpg"
+    }
+
     document.getElementById('lokacija').options[0].innerHTML = "Hanioti";
     document.getElementById('lokacija').options[0].value = "Hanioti";
     document.getElementById('lokacija').options[1].innerHTML = "Nei Poroi";
     document.getElementById('lokacija').options[1].value = "NP";
     document.getElementById('lokacija').options[2].innerHTML = "Asprovalta";
     document.getElementById('lokacija').options[2].value = "Asprovalta";
+
   }
   else if (destinacija.value == "CG") {
+
+    if(lokacijaa.value == "Hanioti" || lokacijaa.value == "Kemer" )
+    {
+      slika.src="./slike/kotor.jpg"
+    }
+    else if(lokacijaa.value == "NP" || lokacijaa.value == "Istanbul" )
+    {
+      slika.src="./slike/herceg_novi.jpg"
+    }
+    else if(lokacijaa.value == "Asprovalta" || lokacijaa.value == "Alanya" )
+    {
+      slika.src="./slike/budva.jpg"
+    }
+
+
     document.getElementById('lokacija').options[0].innerHTML = "Kotor";
     document.getElementById('lokacija').options[0].value = "Kotor";
     document.getElementById('lokacija').options[1].innerHTML = "Herceg Novi";
@@ -54,6 +86,22 @@ function promena() {
     document.getElementById('lokacija').options[2].value = "Budva";
   }
   else if (destinacija.value == "Tr") {
+
+    if(lokacijaa.value == "Hanioti" || lokacijaa.value == "Kotor" )
+    {
+      slika.src="./slike/kemer.jpg"
+    }
+    else if(lokacijaa.value == "NP" || lokacijaa.value == "Herceg Novi" )
+    {
+      slika.src="./slike/istanbul.jpg"
+    }
+    else if(lokacijaa.value == "Asprovalta" || lokacijaa.value == "Budva" )
+    {
+      slika.src="./slike/alanya.jpg"
+    }
+
+      
+
     document.getElementById('lokacija').options[0].innerHTML = "Kemer";
     document.getElementById('lokacija').options[0].value = "Kemer";
     document.getElementById('lokacija').options[1].innerHTML = "Istanbul";
@@ -177,7 +225,7 @@ function initMap() {
 
 function promenaSlikeKalk(opcija) {
   var dest = document.getElementById("Destinacija");
-  var slka = document.getElementsById("slka")
+  var slka = document.getElementById("slka")
 
 
   if (dest.value == "Gr") {
