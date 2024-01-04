@@ -160,3 +160,16 @@ function Kalk() {
 
   console.log(rez);
 }
+
+
+function initMap() {
+  var location = { lat: 45.018970, lng: -76.898536 };
+  var map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 15,
+    center: location
+  });
+  var marker = new google.maps.Marker({
+    position: location,
+    map: map
+  })
+}
