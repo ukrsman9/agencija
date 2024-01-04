@@ -284,15 +284,16 @@
 
     div.content2 {
       padding: 1%;
+      
     }
 
     .forma {
-
-      margin-left: auto;
-      margin-right: auto;
+      margin: 30px;
+      vertical-align: top;
       text-align: center;
-      padding: 15px;
+     
       width: 500px;
+      height:500px;
       background-color: #3F72AF;
       color: #DBE2EF;
     }
@@ -303,9 +304,7 @@
 
     }
 
-    .dana10 {}
-
-    .dana7 {}
+    
 
     .sakri {
       visibility: hidden;
@@ -331,13 +330,12 @@
 
     img.slikeDestinacijeZakalk{
         display: inline-block;
-        margin-left: auto;
-        margin-right: auto;
+        vertical-align: top;
 
         height:500px;
         width: 800px;
 
-
+        padding: 15px;
     }
 
     
