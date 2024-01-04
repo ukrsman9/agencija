@@ -175,19 +175,30 @@ function initMap() {
 }
 
 
-function promenaSlikeKalk(opcija)
-{
-  var dest = document.getElementById("Destinacija") ;
-
+function promenaSlikeKalk(opcija) {
+  var dest = document.getElementById("Destinacija");
+  var slka = document.getElementsById("slka")
 
 
   if (dest.value == "Gr") {
-   
+    switch (opcija) {
+      case 1: slka.src = "./slike/hanioti.jpg"; break;
+      case 2: slka.src = "./slike/nei_pori.jpeg"; break;
+      case 3: slka.src = "./slike/asprovalta.jpg"; break;
+    }
   }
   else if (dest.value == "CG") {
-  
+    switch (opcija) {
+      case 1: slka.src = "./slike/kotor.jpg"; break;
+      case 2: slka.src = "./slike/herceg_novi.jpg"; break;
+      case 3: slka.src = "./slike/budva.jpg"; break;
+    }
   }
   else if (dest.value == "Tr") {
-
+    switch (opcija) {
+      case 1: slka.src = "./slike/kemer.jpg"; break;
+      case 2: slka.src = "./slike/istanbul.jpg"; break;
+      case 3: slka.src = "./slike/alanya.jpg"; break;
+    }
   }
 }
