@@ -173,3 +173,21 @@ function initMap() {
     map: map
   })
 }
+
+
+function promenaSlikeKalk(opcija)
+{
+  var dest = document.getElementById("Destinacija") ;
+
+
+
+  if (dest.value == "Gr") {
+   
+  }
+  else if (dest.value == "CG") {
+  
+  }
+  else if (dest.value == "Tr") {
+
+  }
+}
