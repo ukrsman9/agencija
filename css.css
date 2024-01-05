@@ -225,14 +225,16 @@
       text-align: center;
 
       border-radius: 15px;
-
-
-
     }
 
     .dropdown-content a:hover {
       background-color: darkgray;
     }
+    .dropdown-content-Clik a  {
+      background-color: rgba(169, 169, 169, 0.651);
+    }
+
+
 
 
 
