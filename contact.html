@@ -9,6 +9,7 @@
 </head>
 <style>
     .forma {
+        padding: 20px;
         margin-right: auto;
         margin-left: auto;
         width: 600px;
@@ -39,7 +40,7 @@
 
     }
 
-    input[type=submit]:hover {
+     input[type=submit]:hover {
         background-color: #112D4E;
         color: white;
     }
@@ -54,8 +55,21 @@
             <ul class="nav">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./kalkulatr.html">Kalk</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="DrugaStrana"><a href="#alo">Contact</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                
+                <li class="DrugaStrana"><a href="">Login</a>
+                    <div class="contact-form">
+                        <form >
+                            <label for="name">Ime:</label>  
+                            <input type="text" id="name" name="name" placeholder="Definitivno" required>
+          
+                            <label for="password">Sifra:</label>
+                            <input type="password" id="password" name="password"required>
+          
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </li>
 
             </ul>
             <div class="naslov">
@@ -75,7 +89,7 @@
                     <textarea placeholder="Vase uvazeno misljenje..." style="height: 100px;">
 
                     </textarea>
-                    <input type="submit" value="Submit">
+                    <input  type="submit" value="Submit">
                 </form>
             </div>
 

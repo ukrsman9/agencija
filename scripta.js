@@ -4,16 +4,15 @@ let dana = 10;
 function promeniSliku(a) {
   var slika = document.getElementById("slika")
   var dugmePromeniSliku1= document.getElementById("dugmePromeniSliku1");
-
+  //uros note / promeniDugme + a  . menjaj pozadinud dugmeta koje je pritisnuto
 
   switch (a) {
-    case 1: slika.src = "./slike/Greece.jpg"; 
-                 
+    case 1: slika.src = "./slike/Greece.jpg";                 
       break;
     case 2: slika.src = "./slike/plaza2.jpg"; break;
     case 3: slika.src = "./slike/CG.jpg"; break;
-    case 4: slika.src = "./slike/srecanCovek2.jpg"; break;
-    case 5: slika.src = "./slike/srecanCovek2.jpg"; break;
+    case 4: slika.src = "./slike/budva2.jpg"; break;
+    case 5: slika.src = "./slike/hanioti2.jpg"; break;
     case 6: slika.src = "./slike/srecanCovek2.jpg"; break;
 
   }

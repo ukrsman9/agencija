@@ -339,3 +339,64 @@
 
       padding: 15px;
     }
+
+
+
+
+    
+    /*---------------------------------------------------- */
+    .contact-form {
+      
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border: 1px solid #ccc;
+     
+      width: 80px;
+      
+  }
+
+  .contact-form input,
+  .contact-form button {
+      display: block;
+      margin-bottom: 10px;
+      width: 80px;
+  }
+
+  
+  .contact-form button {
+    background-color: #3F72AF;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .nav li:hover .contact-form {
+      display: block;
+  }
+
+ 
+  .iskoci input[type=text] {
+      width: 100%;
+      padding: 1px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical
+  }
+
+  .iskoci input[type=submit] {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 10px 20px;
+    background-color: #DBE2EF;
+
+}
+
+.iskoci input[type=submit]:hover {
+    background-color: #112D4E;
+    color: white;
+}   
