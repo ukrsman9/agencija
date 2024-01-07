@@ -4,8 +4,22 @@ let dana = 10;
 function promeniSliku(a) {
   var slika = document.getElementById("slika")
   var dugmePromeniSliku1= document.getElementById("dugmePromeniSliku1");
+  var dugmePromeniSliku2= document.getElementById("dugmePromeniSliku2");
+  var dugmePromeniSliku3= document.getElementById("dugmePromeniSliku3");
+  var dugmePromeniSliku4= document.getElementById("dugmePromeniSliku4");
+  var dugmePromeniSliku5= document.getElementById("dugmePromeniSliku5");
+  var dugmePromeniSliku6= document.getElementById("dugmePromeniSliku6");
   //uros note / promeniDugme + a  . menjaj pozadinud dugmeta koje je pritisnuto
+  dugmePromeniSliku1.style.backgroundColor = "white"
+  dugmePromeniSliku2.style.backgroundColor = "white"
+  dugmePromeniSliku3.style.backgroundColor = "white"
+  dugmePromeniSliku4.style.backgroundColor = "white"
+  dugmePromeniSliku5.style.backgroundColor = "white"
+  dugmePromeniSliku6.style.backgroundColor = "white"
 
+
+  var pomoc  = document.getElementById("dugmePromeniSliku" + a)
+  pomoc.style.backgroundColor = "lightgrey"
   switch (a) {
     case 1: slika.src = "./slike/Greece.jpg";                 
       break;
@@ -200,16 +214,23 @@ function popust() {
 
 function Kalk() {
 
+  var dest = document.getElementById("Destinacija");
+  var lokacijaa = document.getElementById("lokacija");
+
+
   let koef = koeficiet();
   let rez;
   let prevozz = prevoz();
   let popustt = popust()
 
 
+
+
   rez = (20 * koef * dana + prevozz) * popustt;
 
-
-  console.log(rez);
+ document.getElementById("cenaHolder").innerHTML =  " Putujte u "+ lokacijaa.value  + " za SAMO "  + rez + "e"
+ 
+  
 }
 
 
