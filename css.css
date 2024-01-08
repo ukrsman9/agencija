@@ -64,6 +64,7 @@
 
       display: inline-block;
       width: 45%;
+      height: 100%;
       margin-right: 20px;
       border-radius: 15px;
 
@@ -75,6 +76,7 @@
       vertical-align: top;
 
       width: 45%;
+      height: 100%;
       border-radius: 15px;
       display: inline-block;
 
@@ -273,7 +275,8 @@
 
     div.mapa {
       background-image: linear-gradient(to bottom, #3F72AF, #DBE2EF);
-
+      
+      text-align: center;
     }
 
 
