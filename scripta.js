@@ -235,9 +235,9 @@ function Kalk() {
 
 
 function initMap() {
-  var location = { lat: 45.018970, lng: -76.898536 };
+  var location = { lat: -37.108973, lng: -12.289347 };
   var map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 16,
+    zoom: 17,
     center: location
     
   });
