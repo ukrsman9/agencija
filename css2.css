@@ -185,11 +185,16 @@ body {
     display: block;
   }
 
+
+  .galerija{
+    padding: 10px;
+    border-collapse: collapse;
+  }
   .grid-container {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 2fr 3fr;
-    gap: 10px; 
+
   }
 
   /* Add some styling for better visibility */
@@ -201,8 +206,8 @@ body {
   .grid-container2 {
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 2fr 1fr;
-    gap: 10px; 
+    grid-template-columns: 3fr 2fr;
+    
   }
 
   .grid-slika{
