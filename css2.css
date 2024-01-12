@@ -124,6 +124,7 @@ body {
     overflow: hidden;
     background-color: #112D4E;
     width: 98%;
+    
 
   }
 
@@ -185,7 +186,18 @@ body {
   .grid-slika{
     width: 100% ;
     height: 500px;
+    animation: slika  3s ;
+    
   }
+
+  @keyframes slika {
+    from {
+      opacity: 0;     
+    }
+    to {
+      opacity: 100%;
+    }
+  }  
 
 
 
@@ -207,4 +219,4 @@ body {
     to {
       width: 100%;
     }
-  }
+  }  
