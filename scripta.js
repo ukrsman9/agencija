@@ -275,3 +275,7 @@ function promenaSlikeKalk(opcija) {
     }
   }
 }
+
+
+
+
