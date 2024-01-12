@@ -93,62 +93,29 @@ body {
 
   div.ekran {
 
-    width: 600px;
-    height: 300px;
+    width: 500px;
+    height: 250px;
     
     margin-top: 70px;
     margin-left: 70px;
 
     padding: 5px;
+    font-size: 20px;
     text-align: unset;
-  }
-
-  /*napravi da se skralira ekran sa ekranima po velicini displaya */
-  img.ekranImg {
-    margin: 15px;
-    width: 80%;
-    height: 40%;
-    border-radius: 30px;
+    background-color:#3F72AF;
+    border: #000 solid 1px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-
-  div.ekran1 {
-    background-image: linear-gradient(to bottom right, #112D4E, #3F72AF);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    vertical-align: top;
-
-    display: inline-block;
-    width: 40%;
-    height: 100%;
-    margin-right: 20px;
-    border-radius: 15px;
-
-  }
-
-  div.ekran2 {
-    background-image: linear-gradient(to bottom right, #3F72AF, #112D4E);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    vertical-align: top;
-
-    width: 40%;
-    height: 100%;
-    border-radius: 15px;
-    display: inline-block;
-
-  }
-
-  button.ekranBTN{
-    margin-top: 130px;
-    width: 4%;
-    height: 10%;
 
   }
 
   p.ekran {
+    
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
     color: #F9F7F7;
+
+    
   }
 
   
@@ -156,6 +123,7 @@ body {
   #BU {
     overflow: hidden;
     background-color: #112D4E;
+    width: 98%;
 
   }
 
@@ -201,6 +169,10 @@ body {
   .grid-item {
     border: 1px solid #000;
     padding: 10px;
+    font-size: 19px;
+  }
+  .grid-item h1{
+    text-align: center;
   }
 
   .grid-container2 {
@@ -213,4 +185,26 @@ body {
   .grid-slika{
     width: 100% ;
     height: 500px;
+  }
+
+
+
+   
+  .typing-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+  .fade-in {
+    animation: ulece  3s infinite;
+    font-size: 20px;
+    overflow: hidden;
+}
+  @keyframes ulece {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
   }

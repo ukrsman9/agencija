@@ -277,5 +277,20 @@ function promenaSlikeKalk(opcija) {
 }
 
 
+document.addEventListener('DOMContentLoaded', function () {
 
+  const textElement = document.getElementById('animated-text');
+  const ponude = ['Letvanje?', 'Zimovanje?', 'Docek nove godine?']; 
+
+  let i = 0;
+
+  function PromeniText() {
+    textElement.textContent = ponude[i];
+    i = (i + 1) % ponude.length;
+  } 
+  PromeniText();
+
+  
+  setInterval(PromeniText, 3000); 
+});
 
