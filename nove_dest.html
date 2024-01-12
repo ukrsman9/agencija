@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nove Destinacije</title>
+    <link href="./css.css" rel="stylesheet">
+    <style>
+        div.ekranOrg {
+            background-image: linear-gradient(to bottom right, #112D4E, #3F72AF);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            vertical-align: top;
+
+            display: inline-block;
+            width: 45%;
+            height: 100%;
+            margin-right: 20px;
+            border-radius: 15px;
+
+        }
+
+        div.ekran3 {
+            background-image: linear-gradient(to bottom right, #3F72AF, #112D4E);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            vertical-align: top;
+
+            width: 25%;
+            height: 100%;
+            border-radius: 15px;
+            display: inline-block;
+
+        }
+
+        img.dest {
+            height: 450px;
+            width: 600px;
+            border-radius: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+        }
+        p.dest{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 200px;
+            margin-right: 200px;
+            border: 2px solid black;
+            border-radius: 12px;
+        }
+        table{
+            margin: 20px;
+        }
+        td.dest{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            text-align: center; 
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sve">
+
+
+        <div class="top-container">
+
+            <ul class="nav">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./kalkulatr.html">Kalk</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./brosura.html">Brosura</a></li>
+                <li class="DrugaStrana"><a href="#alo">Login</a>
+                    <div class="contact-form">
+                        <form>
+                            <label for="name">Ime:</label>
+                            <input type="text" id="name" name="name" placeholder="Definitivno" required>
+
+                            <label for="password">Sifra:</label>
+                            <input type="password" id="password" name="password" required>
+
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </li>
+
+            </ul>
+
+
+            <div class="naslov">
+                <h1>TURISTICKA AGENCIJA</h1>
+                <h1>MAMUT</h1>
+                <h1>VAM DONOSI NOVE DESTINACIJE ZA ZIMOVANJE 2024</h1>
+                <div class="ekran ">
+                    <div class="ekranOrg">
+                        <img class="ekranImg" src="./slike/avion.jpg">
+                        <p class="ekran ">Nabavi ski opremu za svoje idealno zimovanje</p>
+                        <br>
+                        <a href="#oprema"><button style="width: 30%; height: 30px;">Ovde</button></a>
+                    </div>
+                    <div class="ekran2">
+                        <img class="ekranImg" src="./slike/avion.jpg">
+                        <p class="ekran ">Rezervisite vase zimovanje, koje nikada niste mogli zamisliti </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./slike/aspen.jpg" class="dest" alt="">
+        <p class="dest">Aspen, Colorado, USA
+            <br>
+            Aspen je svetski poznata ski destinacija, koja vam pruza cetiri najbolja ski centra u svetu, Aspen planina, Aspenski visovi, Buttermilk i Snowmass. <br>
+            Takodje ima razvijenu kulturnu scenu i luksuzni smestaj. Tako da ako zelite zimske carolije i razne sadrzaje ovo je pravi izbor za vas!
+        </p>
+        <img src="./slike/chamonix.jpg" class="dest" alt="">
+        <p class="dest">Samoni Mon Blan, Francuska 
+            <br>
+            <i>Chamonix-Mont-Blanc</i>
+            <br>
+            Situiran u francuskom delu alpskih planina, Samoni je poznat po svojim izazovnim skijaskim stazama, sjajnim pogledima i ikonicni Mon Blan (najvisi vrh zapadne Evrope) <br>
+            Sjajan je izbor za ljude koji vec imaju dosta iskustva sa planinarenjem i skijanjem, ako ste to vi ovo je sjajan izbor za vas!
+        </p>
+        <img src="./slike/zermatt.jpg" class="dest" alt="">
+        <p class="dest">Cermat, Svajcarska 
+            <br>
+            <i>Zermatt</i>
+            <br>
+            Cermat je prava slika Svajcarske zimske idile, nalazi se u podnozju planine Materhorn. Pruza sjajne prilike za skijanje i snoubording. <br>
+            Sam put do Cermata je vredan svake pare a to vas moze uveriti slika iznad!
+        </p>
+        <table>
+            <tr>
+                <td class="dest">Zanima vas zimska oprema? <br>
+                E pa kod naseg sponzora se mozete opremiti veoma lako! =></td>
+                <td><a href="https://rs.beosport.com/skijanje"><img src="./slike/skijanje_stock.jpg" style="height: 300px;
+                width: 500px;border-radius: 20px;border: 2px solid black;" id="oprema" alt=""></a></td>
+            </tr>
+        </table>
+        <div id="BU">
+            <a href="./index.html">Home</a>
+            <li><a href="./kalkulatr.html">Kalk</a></li>
+            <a href="">Contact</a>
+            <li class="DrugaStrana"><a href="">Contact</a></li>
+        </div>
+
+    </div>
+</body>
+
+</html>
