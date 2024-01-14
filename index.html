@@ -12,7 +12,7 @@
       width: 600px;
       margin-right: auto;
       margin-left: auto;
-      display: block; 
+      display: block;
     }
   </style>
 
@@ -34,15 +34,15 @@
           <div class="contact-form">
               <form >
                   <label for="name">Ime:</label>  
-                  <input type="text" id="name" name="name" placeholder="Ime" required>
+                  <input type="text" id="name" name="name" placeholder="Definitivno" required>
 
-                  <label for="password">Sifra:</label>
-                  <input type="password" id="password" name="password"required>
+              <label for="password">Sifra:</label>
+              <input type="password" id="password" name="password" required>
 
-                  <button type="submit">Submit</button>
-              </form>
+              <button type="submit" id="submit">Submit</button>
+            </form>
           </div>
-      </li>
+        </li>
 
       </ul>
 
@@ -61,8 +61,8 @@
         </div>
         <div class="ekran2">
           <img class="ekranImg" src="./slike/avion.jpg">
-          <p class="ekran " >Rezervisite vase mesto sa pogledom iz snova   </p>
-          
+          <p class="ekran ">Rezervisite vase mesto sa pogledom iz snova </p>
+
           <p class="ekran ">povoljne avionke karte</p>
         </div>
       </div>
@@ -126,9 +126,9 @@
 
           <div class="dropdown-content">
 
-            <button onclick="promeniSliku(1)" id="dugmePromeniSliku1">Santorini</button>
+            <button onclick="promeniSliku(1)" id="dugmePromeniSliku1">Grcka</button>
             <button style="background-color: lightgrey;" onclick="promeniSliku(2)" id="dugmePromeniSliku2">Tropska Ostrva</button>
-            <button onclick="promeniSliku(3)" id="dugmePromeniSliku3">Herceg Novi</button>
+            <button onclick="promeniSliku(3)" id="dugmePromeniSliku3">Crna Gora</button>
             <button onclick="promeniSliku(4)" id="dugmePromeniSliku4">Budva</button>
             <button onclick="promeniSliku(5)" id="dugmePromeniSliku5">Hanioti</button>
             <button onclick="promeniSliku(6)" id="dugmePromeniSliku6">Alanya</button>
@@ -150,5 +150,19 @@
   </div>
 </body>
 <script src="./scripta.js"></script>
+<script>
+  var alertButton = document.getElementById('submit');
+  var ime = document.getElementById("name").value;
+  var pass = document.getElementById("password").value;
+
+  alertButton.addEventListener('click', function (ime, pass) {
+    if ((pass === "") || (ime === "")) {
+      alert("Niste uneli validan password ili ime");
+    }
+    else {
+      alert("Dobrodosli " + ime.value + "!");
+    }
+  });
+</script>
 
 </html>
