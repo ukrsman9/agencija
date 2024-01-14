@@ -27,7 +27,7 @@ function promeniSliku(a) {
     case 3: slika.src = "./slike/CG.jpg"; break;
     case 4: slika.src = "./slike/budva2.jpg"; break;
     case 5: slika.src = "./slike/hanioti2.jpg"; break;
-    case 6: slika.src = "./slike/srecanCovek2.jpg"; break;
+    case 6: slika.src = "./slike/Alanya2.jpg"; break;
 
   }
 
