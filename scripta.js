@@ -9,7 +9,7 @@ function promeniSliku(a) {
   var dugmePromeniSliku4= document.getElementById("dugmePromeniSliku4");
   var dugmePromeniSliku5= document.getElementById("dugmePromeniSliku5");
   var dugmePromeniSliku6= document.getElementById("dugmePromeniSliku6");
-  //uros note / promeniDugme + a  . menjaj pozadinud dugmeta koje je pritisnuto
+ 
   dugmePromeniSliku1.style.backgroundColor = "white"
   dugmePromeniSliku2.style.backgroundColor = "white"
   dugmePromeniSliku3.style.backgroundColor = "white"
